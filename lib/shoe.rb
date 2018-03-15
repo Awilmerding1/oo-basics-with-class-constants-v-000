@@ -14,6 +14,6 @@ class Shoe
   
   def brand 
     @brand = brand 
-    BRAND.each do 
+    BRAND.map do |unique|
 
 end
