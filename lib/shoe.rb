@@ -14,14 +14,7 @@ class Shoe
   
   def brand 
     @brand = brand 
-    BRANDS.any? do |unique|
-      @brand == unique 
-    if true 
-      BRANDS
-    else
-      BRAND << brand
-    end
-  end
+    BRAND << brand
 end
 
 end
