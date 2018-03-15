@@ -19,6 +19,9 @@ class Shoe
     if true 
       BRAND 
     else
-      
+      BRAND << brand
+    end
+  end
+end
 
 end
