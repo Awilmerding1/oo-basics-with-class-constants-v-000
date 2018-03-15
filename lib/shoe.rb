@@ -15,5 +15,6 @@ class Shoe
   def brand 
     @brand = brand 
     BRAND.map do |unique|
+      if @brand 
 
 end
