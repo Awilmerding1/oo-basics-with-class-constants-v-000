@@ -14,7 +14,8 @@ class Shoe
   
   def brand 
     @brand = brand 
-    BRAND.map do |unique|
-      if @brand 
+    BRAND.any? do |unique|
+      if @brand == unique 
+        BRAND 
 
 end
