@@ -1,7 +1,7 @@
 class Shoe
   attr_accessor :color, :size, :material, :condition
   
-  BRAND = []
+  BRANDS = []
 
   def initialize(brand)
     @brand = brand
@@ -14,10 +14,10 @@ class Shoe
   
   def brand 
     @brand = brand 
-    BRAND.any? do |unique|
+    BRANDS.any? do |unique|
       @brand == unique 
     if true 
-      BRAND 
+      BRANDS
     else
       BRAND << brand
     end
